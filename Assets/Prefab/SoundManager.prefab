@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6211273198949643841
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6211273198949643847}
+  - component: {fileID: 6211273198949643846}
+  - component: {fileID: 641527148}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6211273198949643847
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211273198949643841}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.046073, y: -4.349906, z: 2.0194802}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6211273198949643846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211273198949643841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c7924f713241d489170408fa23b913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: musicBG
+    clip: {fileID: 8300000, guid: 1f22021ae42e00b459f04f1aa8b8a48f, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: rainBG
+    clip: {fileID: 8300000, guid: 6c900c1d09746e04898e7d1cf5aac9d1, type: 3}
+    volume: 0.08
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: orageTrigger
+    clip: {fileID: 8300000, guid: 851f8ac7d55fd3e4293cdf772add9ea3, type: 3}
+    volume: 0.1
+    pitch: 0.35
+    loop: 0
+    source: {fileID: 0}
+  - name: doggoUn
+    clip: {fileID: 8300000, guid: bdf1b48a3fd42804c96af330db4b5e42, type: 3}
+    volume: 0.4
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: doggoDeux
+    clip: {fileID: 8300000, guid: fedf4d11bceb0874aabee5eba62561de, type: 3}
+    volume: 0.3
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: doggoTrois
+    clip: {fileID: 8300000, guid: f5db2dea97ca18e44870f46639f7c11f, type: 3}
+    volume: 0.2
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: doggoQuatre
+    clip: {fileID: 8300000, guid: cd3131019f40496458755c162fcaaf03, type: 3}
+    volume: 0.2
+    pitch: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - name: crateFall
+    clip: {fileID: 8300000, guid: a75c2f498d340124d8b9e12921b41b0f, type: 3}
+    volume: 0.04
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: batteryChange
+    clip: {fileID: 8300000, guid: 1aa1d0e6322e7104fba0f7c498cbf29b, type: 3}
+    volume: 0.04
+    pitch: 1.06
+    loop: 0
+    source: {fileID: 0}
+  - name: batterySound
+    clip: {fileID: 8300000, guid: da7ee2770de20f648bde9d1d019c386b, type: 3}
+    volume: 0.04
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: batteryPick
+    clip: {fileID: 8300000, guid: 30a97a1eba391214aa2611bbb8b364d4, type: 3}
+    volume: 0.06
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: carSound
+    clip: {fileID: 8300000, guid: cc2115a149459a44b9c04c872c29d9f9, type: 3}
+    volume: 0.06
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: chainSound
+    clip: {fileID: 8300000, guid: e4657f9e344998246b33b73e37d495f7, type: 3}
+    volume: 0.3
+    pitch: 0.8
+    loop: 1
+    source: {fileID: 0}
+  - name: wheelBox
+    clip: {fileID: 8300000, guid: 23fa9c133e2dc1543855d7eacc681204, type: 3}
+    volume: 0.3
+    pitch: 0.5
+    loop: 1
+    source: {fileID: 0}
+  - name: tireDeath
+    clip: {fileID: 8300000, guid: f661eed25274f074caf9d59ccdc6df99, type: 3}
+    volume: 0.02
+    pitch: 1.2
+    loop: 0
+    source: {fileID: 0}
+  - name: boyHalf
+    clip: {fileID: 8300000, guid: 53790649d9e3db64ba836db345a5a92d, type: 3}
+    volume: 0.18
+    pitch: 1.1
+    loop: 0
+    source: {fileID: 0}
+  - name: boyNone
+    clip: {fileID: 8300000, guid: 3e5d5ff99ce012a42bd7ee24f61cc956, type: 3}
+    volume: 0.3
+    pitch: 1.15
+    loop: 0
+    source: {fileID: 0}
+  - name: girlUn
+    clip: {fileID: 8300000, guid: a7dcf4fb2a0343049bc6df9a31e637c1, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: girlDeux
+    clip: {fileID: 8300000, guid: db33c93469e750644b2a113efd2f8732, type: 3}
+    volume: 0.18
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: clicBouton
+    clip: {fileID: 8300000, guid: b07729a73a9cf01449cf83bd860b1df3, type: 3}
+    volume: 0.3
+    pitch: 1.5
+    loop: 0
+    source: {fileID: 0}
+--- !u!114 &641527148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6211273198949643841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3a2f9df8a6efca47a6095e430cfcca2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playAllSound: 0
+  stopAllSound: 0
+  listeSoundToPlay:
+  - Thunder
